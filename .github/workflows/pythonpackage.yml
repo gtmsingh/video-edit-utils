@@ -38,3 +38,4 @@ jobs:
       run: |
         pip install pytest
         pytest --cov=src tests/
+        bash <(curl -s https://codecov.io/bash)
