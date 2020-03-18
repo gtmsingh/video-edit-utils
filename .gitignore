@@ -230,3 +230,7 @@ fabric.properties
 
 # End of https://www.gitignore.io/api/code,pycharm
 
+
+# Custom
+
+test_files/*processed*
