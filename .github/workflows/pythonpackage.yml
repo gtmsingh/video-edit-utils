@@ -37,4 +37,4 @@ jobs:
     - name: Test with unittest
       run: |
         pip install pytest
-        pytest
+        pytest --cov=src tests/
